@@ -1,13 +1,14 @@
 {
-  "name": "officegen",
+  "name": "officegen-math",
   "description": "Office Open XML Generator using Node.js streams. Supporting Microsoft Office 2007 and later Word (docx), PowerPoint (pptx,ppsx) and Excell (xlsx). This module is for all frameworks and environments. No need for any commandline tool - this module is doing everything inside it.",
-  "version": "0.6.4",
+  "version": "0.1.0",
   "author": {
-    "name": "Ziv Barber",
-    "url": "https://github.com/Ziv-Barber"
+    "name": "hayato-SMZ",
+    "url": "https://github.com/hayato-SMZ/"
   },
+  "private": true,
   "license": "MIT",
-  "url": "https://github.com/Ziv-Barber/officegen",
+  "url": "https://github.com/hayato-SMZ/officegen",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -59,7 +60,10 @@
     "async": "^3.2.0",
     "fast-image-size": "^0.1.3",
     "jszip": "^3.2.2",
+    "libxslt": "^0.9.0",
     "lodash": "^4.17.15",
+    "mathjax-full": "^3.1.2",
+    "node1-libxmljsmt": "^1.0.0",
     "readable-stream": "~3.6.0",
     "setimmediate": "~1.0.5",
     "xmlbuilder": "^15.1.0"
